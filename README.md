@@ -1,2 +1,2 @@
 # Radio-Duck-Global-
-Take 2
+GOTY 2024
