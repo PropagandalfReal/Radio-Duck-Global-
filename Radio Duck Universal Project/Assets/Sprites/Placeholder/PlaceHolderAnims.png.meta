@@ -1,0 +1,2164 @@
+fileFormatVersion: 2
+guid: 07ba1d3c3e9530043b2dd41329d83927
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlaceHolderAnims_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed15618929976642842041e23d85c51
+      internalID: -1556893513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_1
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5486f19a4bc0957498102d9016becfbb
+      internalID: 128971705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_2
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b76d7f38051e84989de0b6ac62314f
+      internalID: -665840670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_3
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f6185c8b08e38a4890bcab162c3a1ec
+      internalID: -634707495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_4
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d409473f709e01499ee3ba03dcbee0d
+      internalID: 2114890324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9832f74d5e8367748a450d9cb74de5f0
+      internalID: 932683491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd73d4562634c414b9d00d2b1b85082c
+      internalID: -1234546581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_7
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26076a8ad3b1804180a1e042a6ee9aa
+      internalID: 633817307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_8
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da418b57233879d42b40da1b28fab6cb
+      internalID: -1923137877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_9
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b128a10cc8bfc9f459fd5cfb985023fb
+      internalID: -2039576013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_10
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506498710894e7e4baa7f9906c6be2a9
+      internalID: -1999096088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f33fbf42948bd646a3ef374a1c30934
+      internalID: 502483767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1e5169e083c634dba3d8317e2c34ae
+      internalID: -1014417433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_13
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 693
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8fddf01a76d2a4f9d0479a03004109
+      internalID: -2124620058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e34f4813f1a0d74c8471a579636ab7f
+      internalID: -1248093817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_15
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc5cc4e47430414e8a76b5ad02f9e9d
+      internalID: -875519780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332a300047080524fba8834c040bddc3
+      internalID: -834979176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe63791c8505c6648a7dca76416b4e33
+      internalID: -1898036673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_18
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f6eba35261eca4695caeef2ab11fd7
+      internalID: 1855598573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aecf833edb542d43b93c80d0582b3bf
+      internalID: 756974209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_20
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd64c29604c40a458bc77f6c92a5261
+      internalID: 967147195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_21
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119a15dd7682f774884cbd058198e1dd
+      internalID: -1653709782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_22
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a17a19f8025fec468e536d8d26ad604
+      internalID: 526617054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_23
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6c7ea294fe9743b2f9793e0ef607b
+      internalID: 161458547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_24
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bb49214a8d5d045ab559342ff14cdc
+      internalID: -1570423690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_25
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8364e5d90d6a82046b60f3cd4d3eb93b
+      internalID: -1284842606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_26
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 630
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e86469acd58f5440a54fa8c341d2f52
+      internalID: -358206958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321c003a1fc8b844f88088e81c27342d
+      internalID: 825725372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_28
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7db31f2e43ee3b4199036a404bf7d7c
+      internalID: -1203088078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_29
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad44216a5117264295691fcd0cb2e42
+      internalID: 985869511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_30
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320efa515a2cbcc40a326870a32a090f
+      internalID: -435946200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_31
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9e39c434b78b5f46a1a2f8772d8f073
+      internalID: -1884784220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_32
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4909ae81ee02ea84dbff670df0c179d0
+      internalID: 1983809500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_33
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902557860ca16b944a2468a39fad055f
+      internalID: -723241240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_34
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f9c401f5506494c9bde8f269c24538
+      internalID: -727780520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_35
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8badb7af980a89f4fa130419b27231ad
+      internalID: 974320929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_36
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b91c73b13e7c7b47945936b07180426
+      internalID: 1606125922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05349df1a83e13b4eaff1db2da8e271a
+      internalID: -1830193695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_38
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455559067c9c7a24e901c2e132ee5e49
+      internalID: -179754554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_39
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da78af31c06f224798ea8b9e27e65e9
+      internalID: -791012171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_40
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 567
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320b20e99eafde84da6535daeef06b55
+      internalID: -918426031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c6ad43280be5049ac9a3f2aed7f7a7
+      internalID: 176107917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_42
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc017f4625e11304390591af9520b9c7
+      internalID: 1680788773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_43
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf1df15e8759204ba159e47716fd1df
+      internalID: 690753284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_44
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce97bcb1c3015e488195b74db524c6d
+      internalID: -1186221841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_45
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f05d36ad7514f84b90bf813f7991cbe
+      internalID: -812770065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_46
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d051b47f30cab41a9a0198d1a2dbbb
+      internalID: 1367798213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_47
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c0d09b487acc84689ba758858b6b0d
+      internalID: -1955878484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_48
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc50d09e73957a45b64cd5b972d6fb8
+      internalID: 1780443084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_49
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc86230c94182d47a142c1e80dcea45
+      internalID: 83700145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_50
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 504
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0926a2215cb165d4382798089bb10b0f
+      internalID: 42361555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 441
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a257d940311b6764a9d4297666eb6efb
+      internalID: -1462211363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_52
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 441
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ade6f998fd38942b597f9f93153062
+      internalID: -1744077047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fce20a62b9b39240a742c0d6d25ebc2
+      internalID: 1853539598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_54
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 378
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6ac1e1ade1ee56409ca8f5fca4f83e6
+      internalID: 1328709016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_55
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 378
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ddd9870c479234e9d7a23b66772606
+      internalID: -722248393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_56
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 378
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5333644f251dd149ae7e8a0c9944661
+      internalID: -1293452263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_57
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 378
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2c17da153793b468652b151816a116
+      internalID: 617069020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 315
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529e648f642668f45abb1e346dd40623
+      internalID: 1122906768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_59
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 315
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306916efcaaf72c419b13e6f7226335c
+      internalID: 1314077985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_60
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 315
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c52be6e002ffa45b71d2520decd76b
+      internalID: 550770219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_61
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 315
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800b154c86495b2438c775ed26753343
+      internalID: 531904581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_62
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 315
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd23ec358f975b49b3641a5ed2d537b
+      internalID: -1152622629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_63
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 315
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a116117ecebe1469c7b3d93a31a0aa
+      internalID: -1790382276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 252
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fb7641499bf104eab44bb03304fe26
+      internalID: -1097205014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_65
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 252
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd9e0acf2b538e4d9c17ca8fac4b4b9
+      internalID: -763037967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_66
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 252
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3189154897a784282b52a5e7cb08ca
+      internalID: 422624557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_67
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 252
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92680c383f868004d8508e69e4f6e0dd
+      internalID: 628982153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 189
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972bb7c2d889b4b4da69f97318e2222f
+      internalID: 1340785248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_69
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 189
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ef10d74da525ec489591921af62e5f7
+      internalID: -659679230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_70
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 189
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343099df654fd8d478bcda3b80490e00
+      internalID: -1832758598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_71
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 189
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac32f8a1252a544cbfcb0890241b5a4
+      internalID: -2115059289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e15dfe5aca780d4f9a61ad0aac04a30
+      internalID: -118080631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_73
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b71602b5461ee49b9bdf128153e513
+      internalID: -651125723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_74
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaddf0d657bd2114d859357dd2c64df8
+      internalID: -139188861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_75
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd80894ab2685b04abadc411a66e3751
+      internalID: 1685055440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_76
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f164067581d2d4d8dd96199c06958f
+      internalID: -1449654247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_77
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 126
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c861da32d5a7a934a97bce8d213ea22c
+      internalID: 2033064953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cbf9ee252a57e45be6b695f92574ed
+      internalID: 1669878569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_79
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5daed25cffa84468f032f6717c434b
+      internalID: -507484044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_80
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825782976817a8548ab1340c5b2801fc
+      internalID: 1434769587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_81
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ad6985b279e1b4ea9ab083721ff563
+      internalID: -1018904627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_82
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8dabc24e1693cb4a903276cbe3e362d
+      internalID: -610934655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_83
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 63
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a41b1052d5c6a745be4968d0044b8af
+      internalID: 754412155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64028f1b0c8c48844ba876eb62ea78b3
+      internalID: 1286978172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_85
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a940ff4b31849c44d91b58ec29b19fdd
+      internalID: -1279634174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_86
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82922c428f1fb0b4e9dcad40c1535a4a
+      internalID: 867574218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_87
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf88808ff7f05c46b6326fdebbf406d
+      internalID: 2077771529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_88
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f301361716c642bac2293f21dc61c
+      internalID: -314283269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_89
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4823852dd00d4e043bbf3c964da23014
+      internalID: 1314527882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_90
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1473a6b2723d95143aa09731e3fb8f75
+      internalID: -520007693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlaceHolderAnims_91
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 0
+        width: 79
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422cf8a1ac6b3a44ea5dfe1435db133d
+      internalID: -1972783269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PlaceHolderAnims_0: -1556893513
+      PlaceHolderAnims_1: 128971705
+      PlaceHolderAnims_10: -1999096088
+      PlaceHolderAnims_11: 502483767
+      PlaceHolderAnims_12: -1014417433
+      PlaceHolderAnims_13: -2124620058
+      PlaceHolderAnims_14: -1248093817
+      PlaceHolderAnims_15: -875519780
+      PlaceHolderAnims_16: -834979176
+      PlaceHolderAnims_17: -1898036673
+      PlaceHolderAnims_18: 1855598573
+      PlaceHolderAnims_19: 756974209
+      PlaceHolderAnims_2: -665840670
+      PlaceHolderAnims_20: 967147195
+      PlaceHolderAnims_21: -1653709782
+      PlaceHolderAnims_22: 526617054
+      PlaceHolderAnims_23: 161458547
+      PlaceHolderAnims_24: -1570423690
+      PlaceHolderAnims_25: -1284842606
+      PlaceHolderAnims_26: -358206958
+      PlaceHolderAnims_27: 825725372
+      PlaceHolderAnims_28: -1203088078
+      PlaceHolderAnims_29: 985869511
+      PlaceHolderAnims_3: -634707495
+      PlaceHolderAnims_30: -435946200
+      PlaceHolderAnims_31: -1884784220
+      PlaceHolderAnims_32: 1983809500
+      PlaceHolderAnims_33: -723241240
+      PlaceHolderAnims_34: -727780520
+      PlaceHolderAnims_35: 974320929
+      PlaceHolderAnims_36: 1606125922
+      PlaceHolderAnims_37: -1830193695
+      PlaceHolderAnims_38: -179754554
+      PlaceHolderAnims_39: -791012171
+      PlaceHolderAnims_4: 2114890324
+      PlaceHolderAnims_40: -918426031
+      PlaceHolderAnims_41: 176107917
+      PlaceHolderAnims_42: 1680788773
+      PlaceHolderAnims_43: 690753284
+      PlaceHolderAnims_44: -1186221841
+      PlaceHolderAnims_45: -812770065
+      PlaceHolderAnims_46: 1367798213
+      PlaceHolderAnims_47: -1955878484
+      PlaceHolderAnims_48: 1780443084
+      PlaceHolderAnims_49: 83700145
+      PlaceHolderAnims_5: 932683491
+      PlaceHolderAnims_50: 42361555
+      PlaceHolderAnims_51: -1462211363
+      PlaceHolderAnims_52: -1744077047
+      PlaceHolderAnims_53: 1853539598
+      PlaceHolderAnims_54: 1328709016
+      PlaceHolderAnims_55: -722248393
+      PlaceHolderAnims_56: -1293452263
+      PlaceHolderAnims_57: 617069020
+      PlaceHolderAnims_58: 1122906768
+      PlaceHolderAnims_59: 1314077985
+      PlaceHolderAnims_6: -1234546581
+      PlaceHolderAnims_60: 550770219
+      PlaceHolderAnims_61: 531904581
+      PlaceHolderAnims_62: -1152622629
+      PlaceHolderAnims_63: -1790382276
+      PlaceHolderAnims_64: -1097205014
+      PlaceHolderAnims_65: -763037967
+      PlaceHolderAnims_66: 422624557
+      PlaceHolderAnims_67: 628982153
+      PlaceHolderAnims_68: 1340785248
+      PlaceHolderAnims_69: -659679230
+      PlaceHolderAnims_7: 633817307
+      PlaceHolderAnims_70: -1832758598
+      PlaceHolderAnims_71: -2115059289
+      PlaceHolderAnims_72: -118080631
+      PlaceHolderAnims_73: -651125723
+      PlaceHolderAnims_74: -139188861
+      PlaceHolderAnims_75: 1685055440
+      PlaceHolderAnims_76: -1449654247
+      PlaceHolderAnims_77: 2033064953
+      PlaceHolderAnims_78: 1669878569
+      PlaceHolderAnims_79: -507484044
+      PlaceHolderAnims_8: -1923137877
+      PlaceHolderAnims_80: 1434769587
+      PlaceHolderAnims_81: -1018904627
+      PlaceHolderAnims_82: -610934655
+      PlaceHolderAnims_83: 754412155
+      PlaceHolderAnims_84: 1286978172
+      PlaceHolderAnims_85: -1279634174
+      PlaceHolderAnims_86: 867574218
+      PlaceHolderAnims_87: 2077771529
+      PlaceHolderAnims_88: -314283269
+      PlaceHolderAnims_89: 1314527882
+      PlaceHolderAnims_9: -2039576013
+      PlaceHolderAnims_90: -520007693
+      PlaceHolderAnims_91: -1972783269
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
