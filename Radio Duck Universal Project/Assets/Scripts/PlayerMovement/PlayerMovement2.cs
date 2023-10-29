@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement2 : MonoBehaviour
 {
 	//Scriptable object which holds all the player's movement parameters. 
 
@@ -79,14 +79,16 @@ public class PlayerMovement : MonoBehaviour
 			Animator.SetFloat("Speed", Mathf.Abs(0));
 		}
 
-		if (Input.GetKeyDown(KeyCode.W))
+		if (Input.GetKeyDown(KeyCode.UpArrow))
 		{
 			OnJumpInput();
+            Debug.Log("Up Arrow key was pressed.");
 		}
 
-		if (Input.GetKeyUp(KeyCode.W))
+		if (Input.GetKeyUp(KeyCode.UpArrow))
 		{
 			OnJumpUpInput();
+            Debug.Log("Up Arrow key was released.");
 		}
 		#endregion
 
