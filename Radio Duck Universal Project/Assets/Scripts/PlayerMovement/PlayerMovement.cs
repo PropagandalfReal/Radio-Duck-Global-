@@ -79,14 +79,16 @@ public class PlayerMovement : MonoBehaviour
 			Animator.SetFloat("Speed", Mathf.Abs(0));
 		}
 
-		if (Input.GetKeyDown(KeyCode.W))
+		if (Input.GetKeyDown(KeyCode.E))
 		{
 			OnJumpInput();
+			Debug.Log("E key was pressed.");
 		}
 
-		if (Input.GetKeyUp(KeyCode.W))
+		if (Input.GetKeyUp(KeyCode.E))
 		{
 			OnJumpUpInput();
+			Debug.Log("E key was released.");
 		}
 		#endregion
 
