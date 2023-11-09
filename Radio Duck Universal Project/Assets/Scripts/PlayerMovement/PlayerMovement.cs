@@ -82,13 +82,13 @@ public class PlayerMovement : MonoBehaviour
 		if (Input.GetKeyDown(KeyCode.E))
 		{
 			OnJumpInput();
-			Debug.Log("W key was pressed.");
+			Debug.Log("E key was pressed.");
 		}
 
 		if (Input.GetKeyUp(KeyCode.E))
 		{
 			OnJumpUpInput();
-			Debug.Log("W key was released.");
+			Debug.Log("E key was released.");
 		}
 		#endregion
 
