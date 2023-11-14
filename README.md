@@ -44,4 +44,4 @@ To create custom movement for each character, under the Scripts folder in the As
 
   **Assists**
   Coyote Time: The buffer of time after leaving a platform that the player can still jump
-  Jump Input Buffer Time: The 
+  Jump Input Buffer Time: The amount of time that the jump executes for
