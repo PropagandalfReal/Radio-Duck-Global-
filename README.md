@@ -29,5 +29,19 @@ To create custom movement for each character, under the Scripts folder in the As
   Accel in Air: The multiplier to run acceleration when the character is in the air, either from jumping or falling from running
   Decel in Air: The same but for deceleration
   
-  
-  
+  Do Conserve Momentum: A bool that allows velocity to "lerp", making the character experience inertia
+
+  **The Jump**
+  Jump Height: The maximum height, in Unity units, the character will reach when the jump button is pressed
+  Jump Time to Apex: The time it takes to reach the Jump Height
+
+  **Both Jumps**
+  Jump Cut Gravity Mult: The scale the character will experience Gravity after pressing the down arrow, "cutting" the jump
+  Jump Hang Gravity Mult: The scale the character will experience Gravity after reaching the apex, "floating" in the air
+  Jump Hang Time Threshold: The amount of time the jump hang gravity multiplier will apply for
+  Jump Hang Acceleration: The multiplier player acceleration will occur when hanging in the air
+  Jump Hang Max Speed Mult: The multiplier player max speed will occur when hanging in the air
+
+  **Assists**
+  Coyote Time: The buffer of time after leaving a platform that the player can still jump
+  Jump Input Buffer Time: The 
