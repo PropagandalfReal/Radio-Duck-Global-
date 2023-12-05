@@ -7,6 +7,7 @@ public class PlayerMovement2 : MonoBehaviour
 
 	public PlayerData Data;
 	public Animator Animator;
+	public AudioSource PlayerSource;
 
 	#region Variables
 	//Components
@@ -16,6 +17,10 @@ public class PlayerMovement2 : MonoBehaviour
 
 	public bool IsFacingRight { get; private set; }
 	public bool IsJumping { get; private set; }
+
+	//Attacking
+	public bool Attacking;
+	public bool Stunned;
 
 	//Timers
 	public float LastOnGroundTime { get; private set; }
@@ -69,26 +74,28 @@ public class PlayerMovement2 : MonoBehaviour
 		_moveInput.x = Input.GetAxisRaw(HorizontalLocal);
 		_moveInput.y = Input.GetAxisRaw(VerticalLocal);
 
-		if (_moveInput.x != 0)
+		if (_moveInput.x != 0 && !Stunned && !Attacking)
 		{
 			Animator.SetFloat("Speed", Mathf.Abs(_moveInput.x * 10));
+			PlayerSource.mute = false;
 			CheckDirectionToFace(_moveInput.x > 0);
 		}
 		else
 		{
+			PlayerSource.mute = true;
 			Animator.SetFloat("Speed", Mathf.Abs(0));
 		}
 
-		if (Input.GetKeyDown(KeyCode.UpArrow))
+		if (Input.GetKeyDown(KeyCode.UpArrow) && !Stunned && !Attacking)
 		{
 			OnJumpInput();
-            Debug.Log("Up Arrow key was pressed.");
+			Debug.Log("E key was pressed.");
 		}
 
-		if (Input.GetKeyUp(KeyCode.UpArrow))
+		if (Input.GetKeyUp(KeyCode.UpArrow) && !Stunned && !Attacking)
 		{
 			OnJumpUpInput();
-            Debug.Log("Up Arrow key was released.");
+			Debug.Log("E key was released.");
 		}
 		#endregion
 
@@ -124,7 +131,7 @@ public class PlayerMovement2 : MonoBehaviour
 		}
 
 		//Jump execute
-		if (CanJump() && LastPressedJumpTime > 0)
+		if (CanJump() && LastPressedJumpTime > 0 && !Attacking && !Stunned)
 		{
 			_CanFlip = false;
 			IsJumping = true;
@@ -169,7 +176,6 @@ public class PlayerMovement2 : MonoBehaviour
 	{
 		//Handle Run
 		Run(1);
-
 	}
 
 	#region INPUT CALLBACKS
@@ -196,46 +202,52 @@ public class PlayerMovement2 : MonoBehaviour
 	#region RUN METHODS
 	private void Run(float lerpAmount)
 	{
-		//Calculate the direction
-		float targetSpeed = _moveInput.x * Data.runMaxSpeed;
-		targetSpeed = Mathf.Lerp(RB.velocity.x, targetSpeed, lerpAmount);
-
-		#region Calculate AccelRate
-		float accelRate;
-
-		//Gets an acceleration value
-		if (LastOnGroundTime > 0)
-			accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Data.runAccelAmount : Data.runDeccelAmount;
-		else
-			accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Data.runAccelAmount * Data.accelInAir : Data.runDeccelAmount * Data.deccelInAir;
-		#endregion
-
-		#region Add Bonus Jump Apex Acceleration
-		//Increase Force
-		if ((IsJumping || _isJumpFalling) && Mathf.Abs(RB.velocity.y) < Data.jumpHangTimeThreshold)
+		if (!Stunned && !Attacking)
 		{
-			accelRate *= Data.jumpHangAccelerationMult;
-			targetSpeed *= Data.jumpHangMaxSpeedMult;
+			//Calculate the direction
+			float targetSpeed = _moveInput.x * Data.runMaxSpeed;
+			targetSpeed = Mathf.Lerp(RB.velocity.x, targetSpeed, lerpAmount);
+
+			#region Calculate AccelRate
+			float accelRate;
+
+			//Gets an acceleration value
+			if (LastOnGroundTime > 0)
+				accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Data.runAccelAmount : Data.runDeccelAmount;
+			else
+				accelRate = (Mathf.Abs(targetSpeed) > 0.01f) ? Data.runAccelAmount * Data.accelInAir : Data.runDeccelAmount * Data.deccelInAir;
+			#endregion
+
+			#region Add Bonus Jump Apex Acceleration
+			//Increase Force
+			if ((IsJumping || _isJumpFalling) && Mathf.Abs(RB.velocity.y) < Data.jumpHangTimeThreshold)
+			{
+				accelRate *= Data.jumpHangAccelerationMult;
+				targetSpeed *= Data.jumpHangMaxSpeedMult;
+			}
+			#endregion
+
+			//Conserve momentum
+			#region Conserve Momentum
+			//Likely used for final project, not necessary here
+			if (Data.doConserveMomentum && Mathf.Abs(RB.velocity.x) > Mathf.Abs(targetSpeed) && Mathf.Sign(RB.velocity.x) == Mathf.Sign(targetSpeed) && Mathf.Abs(targetSpeed) > 0.01f && LastOnGroundTime < 0)
+			{
+				accelRate = 0;
+			}
+			#endregion
+
+			//Calculate difference 
+			float speedDif = targetSpeed - RB.velocity.x;
+			//Calculate force along x-axis
+
+			float movement = speedDif * accelRate;
+
+			//Convert this to a vector
+			if (!Stunned && !Attacking)
+            {
+				RB.AddForce(movement * Vector2.right, ForceMode2D.Force);
+			}
 		}
-		#endregion
-
-		//Conserve momentum
-		#region Conserve Momentum
-		//Likely used for final project, not necessary here
-		if (Data.doConserveMomentum && Mathf.Abs(RB.velocity.x) > Mathf.Abs(targetSpeed) && Mathf.Sign(RB.velocity.x) == Mathf.Sign(targetSpeed) && Mathf.Abs(targetSpeed) > 0.01f && LastOnGroundTime < 0)
-		{
-			accelRate = 0;
-		}
-		#endregion
-
-		//Calculate difference 
-		float speedDif = targetSpeed - RB.velocity.x;
-		//Calculate force along x-axis
-
-		float movement = speedDif * accelRate;
-
-		//Convert this to a vector
-		RB.AddForce(movement * Vector2.right, ForceMode2D.Force);
 	}
 
 	//Flips player's sprite
