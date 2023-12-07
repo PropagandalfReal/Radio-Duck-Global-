@@ -61,7 +61,6 @@ public class PlayerMovement : MonoBehaviour
 	}
 
 	//Update to find Inputs and Elapsed Time
-
 	private void Update()
 	{
 		#region TIMERS

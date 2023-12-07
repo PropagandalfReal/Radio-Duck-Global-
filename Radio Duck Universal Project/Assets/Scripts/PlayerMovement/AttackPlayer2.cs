@@ -64,12 +64,12 @@ public class AttackPlayer2 : MonoBehaviour
             if (HitObject.GetComponent<AttackPlayer1>().InputName == "Punch")
             {
                 gameObject.GetComponent<PlayerMovement2>().Stunned = true;
-                RegisterAttack(150f, HitObject.gameObject, 1);
+                RegisterAttack(1000f, HitObject.gameObject, 1);
             }
             else
             {
                 gameObject.GetComponent<PlayerMovement2>().Stunned = true;
-                RegisterAttack(250f, HitObject.gameObject, 3);
+                RegisterAttack(1500f, HitObject.gameObject, 3);
             }
         }
     }
@@ -78,7 +78,7 @@ public class AttackPlayer2 : MonoBehaviour
     {
         HealthBar.GetComponent<HealthBar>().current -= Damage;
         HitAudio.Play();
-        PlayerRGBD.AddForce((EnemyPosition - transform.position).normalized * -Force, ForceMode2D.Force);
+        PlayerRGBD.AddForce((EnemyPosition - transform.position).normalized * -Force, ForceMode2D.Impulse);
         StartCoroutine(WaitTimeAfterHit());
     }
     void DoAttackPunch()

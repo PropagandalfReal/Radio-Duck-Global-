@@ -842,7 +842,7 @@ GameObject:
   - component: {fileID: 1482052259}
   - component: {fileID: 1482052258}
   m_Layer: 0
-  m_Name: Castle
+  m_Name: Cyberpunk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,7 +918,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 05151515ad4ba644c8af52f923c6b331, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e67077c21ef8b9d4e8970403208cb60a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
