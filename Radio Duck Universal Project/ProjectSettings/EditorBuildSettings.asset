@@ -6,10 +6,22 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menus/MainMenu.unity
     guid: 7391dcd73263d3c4a83b9f7796fc9521
   - enabled: 1
-    path: Assets/Scenes/Placeholder.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Menus/CharacterSelection.unity
+    guid: 8e8016c461d8b394faf75098b5967a77
+  - enabled: 1
+    path: Assets/Scenes/Menus/StageSelection.unity
+    guid: 23d13c26bc33e244bbdd154d1b1551cd
+  - enabled: 1
+    path: Assets/Scenes/Stages/Dojo.unity
+    guid: 8c12b4eb534b4bf44ac6edda82741a84
+  - enabled: 1
+    path: Assets/Scenes/Stages/Cyberpunk.unity
+    guid: b6d11f10d880f2648a81672c9690b653
+  - enabled: 1
+    path: Assets/Scenes/Stages/Skeletal Castel.unity
+    guid: 787b9efcc7679874a8c82c92db8335ff
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e1566ed277df39441bec4b9ebc4f5129, type: 2}
