@@ -31,7 +31,7 @@ public class P2Spawn : MonoBehaviour
     {
         spawnPoint = this.gameObject;
         newLocation = NewPrefab;
-        spawnPoint.transform.position = newLocation.transform.position;
+        spawnPoint.transform.position = newLocation.transform.Find("CameraTrack").gameObject.transform.position;
     }
 
     private void UpdateCharacter(int selectedOptionP2)

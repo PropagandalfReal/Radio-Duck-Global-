@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AttackPlayer2 : MonoBehaviour
+public class AttackPlayer1 : MonoBehaviour
 {
     // Start is called before the first frame update
     public Animator Animator;
@@ -12,7 +12,7 @@ public class AttackPlayer2 : MonoBehaviour
     public CircleCollider2D MovingCollider;
     public string InputName;
 
-    public Image HealthBar;
+    public Image Healthbar;
 
     public GameObject PunchPosition;
     public GameObject KickPosition;
@@ -21,14 +21,14 @@ public class AttackPlayer2 : MonoBehaviour
     public AudioSource HitAudio;
 
     bool PunchDebounce = false;
-    bool KickDebounce = false;
+    bool BlockDebounce = false;
     bool HitDebounce = false;
 
     Vector3 EnemyPosition;
 
     void Start()
     {
-        HealthBar = GameObject.Find("HealthSystem").transform.GetChild(1).gameObject.GetComponent<Image>();
+        Healthbar = GameObject.Find("HealthSystem").transform.GetChild(0).gameObject.GetComponent<Image>();
         PlayerRGBD = GetComponent<Rigidbody2D>();
         MovingCollider = Player.GetComponent<CircleCollider2D>();
     }
@@ -36,22 +36,19 @@ public class AttackPlayer2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightShift) && !PunchDebounce)
+        if (Input.GetKeyDown(KeyCode.X) && !PunchDebounce)
         {
             AttackingAudio.Play();
             Animator.SetTrigger("Punch");
-            GetComponent<PlayerMovement2>().Attacking = true;
+            GetComponent<PlayerMovement1>().Attacking = true;
             PunchDebounce = true;
             DoAttackPunch();
         }
 
-        if (Input.GetKeyDown(KeyCode.Slash) && !KickDebounce)
+        if (Input.GetKeyDown(KeyCode.C) && !BlockDebounce)
         {
-            AttackingAudio.Play();
-            Animator.SetTrigger("Kick");
-            GetComponent<PlayerMovement2>().Attacking = true;
-            KickDebounce = true;
-            DoAttackKick();
+            BlockDebounce = true;
+            DoAttackBlock();
         }
     }
 
@@ -59,25 +56,24 @@ public class AttackPlayer2 : MonoBehaviour
     {
         if (HitObject.gameObject != gameObject && HitObject.gameObject.GetComponent<Rigidbody2D>() && !HitDebounce)
         {
-            Debug.Log("Player2 was attacked!");
+            Debug.Log("Player1 was attacked!");
             HitDebounce = true;
             EnemyPosition = HitObject.transform.position;
-            if (HitObject.GetComponent<AttackPlayer1>().InputName == "Punch")
+            if (HitObject.GetComponent<AttackPlayer2>().InputName == "Punch" && !PunchDebounce)
             {
-                HitObject.GetComponent<PlayerMovement1>().Stunned = true;
-                RegisterAttack(300f, HitObject.gameObject, 1);
+                HitObject.GetComponent<PlayerMovement2>().Stunned = true;
+                RegisterAttack(300f, HitObject.gameObject);
             }
-            else
+            else if (!PunchDebounce) 
             {
-                HitObject.GetComponent<PlayerMovement1>().Stunned = true;
-                RegisterAttack(150f, HitObject.gameObject, 3);
+                HitObject.GetComponent<PlayerMovement2>().Stunned = true;
+                RegisterAttack(350f, HitObject.gameObject);
             }
         }
     }
 
-    void RegisterAttack(float Force, GameObject HitObject, int Damage)
+    void RegisterAttack(float Force, GameObject HitObject)
     {
-        HealthBar.GetComponent<HealthBar>().current -= Damage;
         HitAudio.Play();
         PlayerRGBD.AddForce(Vector3.Normalize(EnemyPosition - transform.position) * -Force, ForceMode2D.Force);
         StartCoroutine(WaitTimeAfterHit(HitObject));
@@ -88,40 +84,45 @@ public class AttackPlayer2 : MonoBehaviour
         StartCoroutine(WaitTimePunch());
     }
 
-    void DoAttackKick()
+    void DoAttackBlock()
     {
-        InputName = "Kick";
-        StartCoroutine(WaitTimeKick());
+        StartCoroutine(WaitTimeBlock());
     }
 
     IEnumerator WaitTimeAfterHit(GameObject ObjHit)
     {
         yield return new WaitForSeconds(0.5f);
-        ObjHit.GetComponent<PlayerMovement1>().Stunned = false;
+        ObjHit.GetComponent<PlayerMovement2>().Stunned = false;
         HitDebounce = false;
     }
 
     IEnumerator WaitTimePunch()
     {
         yield return new WaitForSeconds(0.10f);
+        Debug.Log(transform.position.x / 3);
+        Debug.Log(transform.position.x);
         MovingCollider.offset = new Vector2(1.6f, 0);
         MovingCollider.enabled = true;
         yield return new WaitForSeconds(0.05f);
         MovingCollider.enabled = false;
-        yield return new WaitForSeconds(0.3f);
-        GetComponent<PlayerMovement2>().Attacking = false;
+        yield return new WaitForSeconds(0.5f);
+        GetComponent<PlayerMovement1>().Attacking = false;
         PunchDebounce = false;
     }
 
-    IEnumerator WaitTimeKick()
+    IEnumerator WaitTimeBlock()
     {
-        yield return new WaitForSeconds(0.15f);
-        MovingCollider.offset = new Vector2(1.2f, -0.3f);
-        MovingCollider.enabled = true;
-        yield return new WaitForSeconds(0.08f);
-        MovingCollider.enabled = false;
-        yield return new WaitForSeconds(0.4f);
-        GetComponent<PlayerMovement2>().Attacking = false;
-        KickDebounce = false;
+        PunchDebounce = true;
+        GetComponent<PlayerMovement1>().Blocking = true;
+        yield return new WaitForSeconds(0.35f);
+        while (Input.GetKeyDown(KeyCode.C))
+        {
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(0.35f);
+        GetComponent<PlayerMovement1>().Blocking = false;
+        PunchDebounce = false;
+        BlockDebounce = false;
     }
 }

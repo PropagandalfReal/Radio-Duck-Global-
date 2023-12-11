@@ -20,6 +20,7 @@ public class PlayerMovement2 : MonoBehaviour
 
 	//Attacking
 	public bool Attacking;
+	public bool Blocking;
 	public bool Stunned;
 
 	//Timers
@@ -202,8 +203,9 @@ public class PlayerMovement2 : MonoBehaviour
 	#region RUN METHODS
 	private void Run(float lerpAmount)
 	{
-		if (!Stunned && !Attacking)
+		if (!Stunned && !Attacking && !Blocking)
 		{
+			GetComponent<Rigidbody2D>().simulated = true;
 			//Calculate the direction
 			float targetSpeed = _moveInput.x * Data.runMaxSpeed;
 			targetSpeed = Mathf.Lerp(RB.velocity.x, targetSpeed, lerpAmount);
@@ -243,11 +245,15 @@ public class PlayerMovement2 : MonoBehaviour
 			float movement = speedDif * accelRate;
 
 			//Convert this to a vector
-			if (!Stunned && !Attacking)
+			if (!Stunned && !Attacking && !Blocking)
 			{
 				RB.AddForce(movement * Vector2.right, ForceMode2D.Force);
 			}
 		}
+		else
+        {
+			GetComponent<Rigidbody2D>().simulated = false;
+        }
 	}
 
 	//Flips player's sprite

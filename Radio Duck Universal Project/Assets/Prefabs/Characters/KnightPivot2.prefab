@@ -535,7 +535,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1556893513, guid: 07ba1d3c3e9530043b2dd41329d83927, type: 3}
   m_Color: {r: 0.8352941, g: 0.21176468, b: 0.7135378, a: 1}
   m_FlipX: 0
@@ -741,6 +741,7 @@ MonoBehaviour:
   Animator: {fileID: 4240970421923125491}
   PlayerSource: {fileID: 6330048339692232431}
   Attacking: 0
+  Blocking: 0
   Stunned: 0
   HorizontalLocal: HorizontalP2
   VerticalLocal: VerticalP2

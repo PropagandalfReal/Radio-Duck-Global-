@@ -545,6 +545,7 @@ MonoBehaviour:
   Animator: {fileID: 1071584847092452732}
   PlayerSource: {fileID: 7195949500557527904}
   Attacking: 0
+  Blocking: 0
   Stunned: 0
   HorizontalLocal: HorizontalP1
   VerticalLocal: VerticalP1
@@ -721,7 +722,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: -1556893513, guid: 07ba1d3c3e9530043b2dd41329d83927, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
